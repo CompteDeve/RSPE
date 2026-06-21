@@ -1,13 +1,12 @@
-# 🛒 Système de recommandation d’annonces e-commerce
+#  Système de recommandation d’annonces e-commerce
 
 **Auteur :** Hafssatou Bilal  
 **Matricule :** 22067  
-**Matière :** MLE413 - Systèmes de recommandation  
-**Date :** Juin 2025
+**Matière :** Systèmes de recommandation  
 
 ---
 
-## 📌 1. Problème
+##  1. Problème
 
 Sur les plateformes e-commerce, les utilisateurs sont souvent submergés par un grand nombre d’annonces. Il devient difficile de trouver rapidement des produits qui correspondent à leurs besoins et préférences.
 
@@ -16,7 +15,7 @@ Créer un système de recommandation qui, à partir d’une annonce consultée p
 
 ---
 
-## 📊 2. Dataset
+##  2. Dataset
 
 ### Source
 Le dataset utilisé est `ecommerce.csv`, un fichier contenant des annonces e-commerce. Il a été fourni dans le cadre du projet.
@@ -40,7 +39,7 @@ Le dataset utilisé est `ecommerce.csv`, un fichier contenant des annonces e-com
 
 ---
 
-## 🧠 3. Features utilisées
+##  3. Features utilisées
 
 Pour construire le profil de chaque annonce, j’ai utilisé les caractéristiques suivantes :
 
@@ -54,7 +53,7 @@ Pour construire le profil de chaque annonce, j’ai utilisé les caractéristiqu
 
 ---
 
-## 🧮 4. Méthode utilisée
+##  4. Méthode utilisée
 
 ### Algorithme
 - **Content-Based Filtering** (filtrage basé sur le contenu)
@@ -75,7 +74,7 @@ Pour construire le profil de chaque annonce, j’ai utilisé les caractéristiqu
 
 ---
 
-## 📈 5. Évaluation
+##  5. Évaluation
 
 ### Critères d’évaluation
 - **Cohérence des recommandations** : les annonces recommandées sont-elles logiquement proches de l’annonce de référence ?
@@ -90,7 +89,7 @@ Pour construire le profil de chaque annonce, j’ai utilisé les caractéristiqu
 
 ---
 
-## 🖥️ 6. Instructions d’installation et d’exécution
+##  6. Instructions d’installation et d’exécution
 
 ### Prérequis
 - Python 3.8 ou supérieur installé
