@@ -99,3 +99,20 @@ Pour construire le profil de chaque annonce, j’ai utilisé les caractéristiqu
 ### Installation des dépendances
 ```bash
 pip install -r requirements.txt
+
+Lancement de l’application
+streamlit run app.py
+
+
+Structure des fichiers
+RecommendationSystemProject/
+│
+├── app.py                          # Application Streamlit
+├── requirements.txt                # Dépendances Python
+├── ecommerce_clean.csv             # Dataset nettoyé
+├── similarity_matrix.joblib        # Matrice de similarité
+├── tfidf_vectorizer.joblib         # Vectoriseur TF-IDF
+├── price_scaler.joblib             # Scaler des prix
+├── views_scaler.joblib             # Scaler des vues
+├── category_encoder.joblib         # Encodeur des catégories
+└── README.md                       # Ce fichier
